@@ -32,15 +32,11 @@ header {
 }
 
 .card {
-  background: linear-gradient(
-    to right,
-    rgba(56, 56, 56, 0.808),
-    rgba(34, 33, 33, 0.89)
-  );
+  background-color: rgba(255, 253, 253, 0.808);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(0, 0%, 100%);
+  color: rgb(58, 104, 124);
   font-size: 18px;
   margin: 0 auto;
   max-width: 600px;
@@ -51,7 +47,7 @@ header {
   content: ' ';
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #adaeaf;
   height: 2px;
 }
 
@@ -67,7 +63,7 @@ header {
   content: ' ';
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #adaeaf;
   height: 2px;
 }
 
