@@ -53,13 +53,14 @@ function generatePassword() {
       // Empty string for generated password
       let generatedPassword = ''
       // Turn dictionary string to array
-      let dictArray = dictionary.split()
+      let dictArray = dictionary.split('')
 
       // Iterate for `charLength` times to build password
       for (let i = 0; i < charLength; i++) {
         // Add random character to generated password
         // select random index from 0 to (length - 1)
         let randomIndex = Math.floor(Math.random() * (dictionary.length - 1))
+        console.log(randomIndex, dictArray.length)
         generatedPassword += dictArray[randomIndex]
       }
       return generatedPassword
