@@ -2,4 +2,4 @@
 
 Generate password of desired length with desired character types.
 
-[Link](https://vsmith-password-generator.netlify.app/)
+[Password Generator Link](https://vsmith-password-generator.netlify.app/)
